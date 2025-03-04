@@ -30,3 +30,8 @@ More functions:
 -
 python translate.py "test.ass" --model google --lang ro --source en
 ```
+```bash
+# Automatic fallback between APIs: If DeepL crashes, it automatically switches to Google Translate:
+
+python translate.py "test.ass" --model deepl --lang ro --fallback
+```
