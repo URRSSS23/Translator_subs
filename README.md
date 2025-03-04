@@ -35,3 +35,8 @@ python translate.py "test.ass" --model google --lang ro --source en
 
 python translate.py "test.ass" --model deepl --lang ro --fallback
 ```
+```bash
+# Limit to a number of lines: Translate only the first 50 lines for the test:
+
+python translate.py "test.ass" --model google --lang ro --limit 50
+```
