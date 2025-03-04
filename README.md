@@ -24,3 +24,9 @@ python translate.py "test.ass" --model deepl --lang en,fr
 # for multiple translate
 python translate.py "test1.ass" "test2.ass" --model google --lang es
 ```
+More functions:
+```bash
+# Specify source language: If the subtitle is in English, but you want to make sure it detects correctly:
+-
+python translate.py "test.ass" --model google --lang ro --source en
+```
